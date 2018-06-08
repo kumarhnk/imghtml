@@ -1,0 +1,9 @@
+<%= form_tag '/home/proces', method: :post do  %>
+  <input type="url" name="url">
+  <input type="submit" name="">
+<% end %>
+
+
+<% if @img %>
+  <img src="/<%= @img %>">
+<% end %>
